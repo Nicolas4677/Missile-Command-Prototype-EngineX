@@ -1,0 +1,42 @@
+﻿  AABBCollider.cpp
+  CircleCollider.cpp
+  Collider.cpp
+  CollisionCalculator.cpp
+  CollisionData.cpp
+  GO_CreationData.cpp
+  Notifier.cpp
+  Game.cpp
+c:\users\student\desktop\nicolas\portfolio\enginexforstudent\game\private\gameobjects\enemy\enemy.h(9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  GameManager.cpp
+c:\users\student\desktop\nicolas\portfolio\enginexforstudent\game\private\gameobjects\enemy\enemy.h(9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\student\desktop\nicolas\portfolio\enginexforstudent\game\private\gamemanagement\gamemanager.cpp(12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\student\desktop\nicolas\portfolio\enginexforstudent\game\private\gamemanagement\gamemanager.cpp(107): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Input.cpp
+  Physics.cpp
+  Screen.cpp
+  Enemy.cpp
+c:\users\student\desktop\nicolas\portfolio\enginexforstudent\game\private\gameobjects\enemy\enemy.h(9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Building.cpp
+  City.cpp
+  Ground.cpp
+  GameObject.cpp
+  Missile.cpp
+  Cannon.cpp
+  Player.cpp
+c:\users\student\desktop\nicolas\portfolio\enginexforstudent\game\private\gameobjects\player\player.cpp(24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  Compiling...
+  UIText.cpp
+  Main.cpp
+c:\users\student\desktop\nicolas\portfolio\enginexforstudent\game\private\gameobjects\enemy\enemy.h(9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Math.cpp
+  Circle.cpp
+  Line.cpp
+  Rectangle.cpp
+  Transform.cpp
+  Vector2.cpp
+  Generating Code...
+EngineX.lib(Engine.obj) : warning LNK4099: PDB 'EngineX.pdb' was not found with 'EngineX.lib(Engine.obj)' or at 'C:\Users\student\Desktop\Nicolas\Portfolio\EngineXForStudent\Build\EngineX.pdb'; linking object as if no debug info
+EngineX.lib(RenderPacket.obj) : warning LNK4099: PDB 'EngineX.pdb' was not found with 'EngineX.lib(RenderPacket.obj)' or at 'C:\Users\student\Desktop\Nicolas\Portfolio\EngineXForStudent\Build\EngineX.pdb'; linking object as if no debug info
+EngineX.lib(System.obj) : warning LNK4099: PDB 'EngineX.pdb' was not found with 'EngineX.lib(System.obj)' or at 'C:\Users\student\Desktop\Nicolas\Portfolio\EngineXForStudent\Build\EngineX.pdb'; linking object as if no debug info
+  GameEngineX.vcxproj -> C:\Users\student\Desktop\Nicolas\Portfolio\EngineXForStudent\Build\GameEngineX.exe

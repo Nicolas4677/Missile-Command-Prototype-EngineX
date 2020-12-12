@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{ccdbdf11-c381-4f92-bf67-ba05fce45ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Public">
+      <UniqueIdentifier>{75c2830e-ea9b-4f39-a9f0-30582628d811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{3f73a39c-59f6-4cb6-a0b8-d251275c643c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Public">
+      <UniqueIdentifier>{6dcd4022-feb1-45d9-a4a5-3b9cee46ecd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private">
+      <UniqueIdentifier>{9e4c503e-26a9-484b-be5c-d94f35576fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\Shapes">
+      <UniqueIdentifier>{b9ed4684-4e87-4876-9c8d-ba73af0892d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\Transforms">
+      <UniqueIdentifier>{90181b45-bcf9-4b15-8a8c-c4e29971ea16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects">
+      <UniqueIdentifier>{bbd44b3f-015c-4057-8ac3-0f1a99ff0041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameManagement">
+      <UniqueIdentifier>{32da88e0-5c4f-4d92-b916-324100f409f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Environment">
+      <UniqueIdentifier>{fc33bb8d-927c-4a85-864f-07cf99526bb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\DesignPatterns">
+      <UniqueIdentifier>{7ed13549-2497-45e2-9d4a-49dffad9156c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\DesignPatterns\Observer">
+      <UniqueIdentifier>{2d5cd624-70e1-44ff-851c-dc8c816dd533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\DesignPatterns\Observer\Events">
+      <UniqueIdentifier>{c26560fe-f923-41a6-94e5-f0bbf5231a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Player">
+      <UniqueIdentifier>{4788cee0-b4ba-423e-aa92-b136be1c10f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\Collision">
+      <UniqueIdentifier>{0bd9d831-05a3-4a0a-ac98-842eecbc4dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\Enemy">
+      <UniqueIdentifier>{afd1a1ac-9398-472d-abf2-495616f0104c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Private\GameObjects\UI">
+      <UniqueIdentifier>{a55eb553-3c84-4ab7-b316-78231e02daf2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Public\EngineInterface.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Public\EngineTypes.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Public\GameInterface.h">
+      <Filter>Source Files\Game\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Public\SDL.h">
+      <Filter>Source Files\Engine\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Game.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Shapes\Shape.h">
+      <Filter>Source Files\Game\Private\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Shapes\Circle.h">
+      <Filter>Source Files\Game\Private\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Shapes\Rectangle.h">
+      <Filter>Source Files\Game\Private\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Transforms\Vector2.h">
+      <Filter>Source Files\Game\Private\Transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Transforms\Transform.h">
+      <Filter>Source Files\Game\Private\Transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\GameObject.h">
+      <Filter>Source Files\Game\Private\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameManagement\Screen.h">
+      <Filter>Source Files\Game\Private\GameManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\GameObjectType.h">
+      <Filter>Source Files\Game\Private\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Environment\Ground.h">
+      <Filter>Source Files\Game\Private\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameManagement\GameManager.h">
+      <Filter>Source Files\Game\Private\GameManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\DesignPatterns\Observer\Observer.h">
+      <Filter>Source Files\Game\Private\DesignPatterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\DesignPatterns\Observer\EventData.h">
+      <Filter>Source Files\Game\Private\DesignPatterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\DesignPatterns\Singleton.h">
+      <Filter>Source Files\Game\Private\DesignPatterns</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\DesignPatterns\Observer\Events\GO_CreationData.h">
+      <Filter>Source Files\Game\Private\DesignPatterns\Observer\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\DesignPatterns\Observer\Notifier.h">
+      <Filter>Source Files\Game\Private\DesignPatterns\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Environment\City.h">
+      <Filter>Source Files\Game\Private\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Environment\Building.h">
+      <Filter>Source Files\Game\Private\GameObjects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameManagement\Input.h">
+      <Filter>Source Files\Game\Private\GameManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Player\Player.h">
+      <Filter>Source Files\Game\Private\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Player\Cannon.h">
+      <Filter>Source Files\Game\Private\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Player\Missile.h">
+      <Filter>Source Files\Game\Private\GameObjects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Shapes\Line.h">
+      <Filter>Source Files\Game\Private\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Collision\Collider.h">
+      <Filter>Source Files\Game\Private\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Collision\ColliderType.h">
+      <Filter>Source Files\Game\Private\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Collision\CollisionCalculator.h">
+      <Filter>Source Files\Game\Private\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Collision\AABBCollider.h">
+      <Filter>Source Files\Game\Private\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Collision\CircleCollider.h">
+      <Filter>Source Files\Game\Private\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Collision\CollisionData.h">
+      <Filter>Source Files\Game\Private\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\Math.h">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameManagement\Physics.h">
+      <Filter>Source Files\Game\Private\GameManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\Enemy\Enemy.h">
+      <Filter>Source Files\Game\Private\GameObjects\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Private\GameObjects\UI\UIText.h">
+      <Filter>Source Files\Game\Private\GameObjects\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\Private\Main.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Game.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Shapes\Circle.cpp">
+      <Filter>Source Files\Game\Private\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Shapes\Rectangle.cpp">
+      <Filter>Source Files\Game\Private\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Transforms\Transform.cpp">
+      <Filter>Source Files\Game\Private\Transforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Transforms\Vector2.cpp">
+      <Filter>Source Files\Game\Private\Transforms</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameManagement\Screen.cpp">
+      <Filter>Source Files\Game\Private\GameManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\GameObject.cpp">
+      <Filter>Source Files\Game\Private\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Environment\Ground.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameManagement\GameManager.cpp">
+      <Filter>Source Files\Game\Private\GameManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\DesignPatterns\Observer\Events\GO_CreationData.cpp">
+      <Filter>Source Files\Game\Private\DesignPatterns\Observer\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\DesignPatterns\Observer\Notifier.cpp">
+      <Filter>Source Files\Game\Private\DesignPatterns\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Environment\City.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Environment\Building.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameManagement\Input.cpp">
+      <Filter>Source Files\Game\Private\GameManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Player\Player.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Player\Cannon.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Player\Missile.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Shapes\Line.cpp">
+      <Filter>Source Files\Game\Private\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Collision\Collider.cpp">
+      <Filter>Source Files\Game\Private\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Collision\AABBCollider.cpp">
+      <Filter>Source Files\Game\Private\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Collision\CircleCollider.cpp">
+      <Filter>Source Files\Game\Private\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Collision\CollisionCalculator.cpp">
+      <Filter>Source Files\Game\Private\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Collision\CollisionData.cpp">
+      <Filter>Source Files\Game\Private\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\Math.cpp">
+      <Filter>Source Files\Game\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameManagement\Physics.cpp">
+      <Filter>Source Files\Game\Private\GameManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\Enemy\Enemy.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Private\GameObjects\UI\UIText.cpp">
+      <Filter>Source Files\Game\Private\GameObjects\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
